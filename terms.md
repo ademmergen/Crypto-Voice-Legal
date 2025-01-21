@@ -1,40 +1,6 @@
-<head>
-  <style>
-    body {
-      background-color: #000001;
-      color: #FFFFFF;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    h1, h2, h3 {
-      color: #FDDC43;
-      font-weight: 600;
-    }
-    a {
-      color: #FDDC43;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    p, ul, li {
-      line-height: 1.6;
-      margin-bottom: 1em;
-    }
-  </style>
-</head>
-
-<div class="container">
-
 # Terms of Service - Crypto Voice
 
-Last Updated: [Tarih]
+Last Updated: March 19, 2024
 
 ## 1. Acceptance of Terms
 By downloading, installing, or using Crypto Voice ("the App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.
@@ -87,6 +53,4 @@ We are not liable for:
 
 ## 9. Contact
 Questions about these terms? Contact us at:
-[E-posta]
-
-</div>
+cryptovoice@example.com
