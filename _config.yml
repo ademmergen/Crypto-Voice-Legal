@@ -12,38 +12,44 @@ show_downloads: false
 
 # Tema renkleri ve stili
 colors:
-  header-bg-color: "#159957"
-  header-bg-color-secondary: "#155799"
-  section-headings-color: "#159957"
-  body-text-color: "#606c71"
-  body-link-color: "#1e6bb8"
-
-# Özel CSS
-kramdown:
-  syntax_highlighter_opts:
-    css_class: 'highlight'
+  header-bg-color: "#000001"
+  header-bg-color-secondary: "#000001"
+  section-headings-color: "#FDDC43"
+  body-text-color: "#FFFFFF"
+  body-link-color: "#FDDC43"
 
 # Sayfa stili
 style: |
+  body {
+    background-color: #000001;
+  }
   .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { 
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto; 
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: #159957;
+    color: #FDDC43;
   }
   .main-content p {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
     font-size: 16px;
     line-height: 1.5;
+    color: #FFFFFF;
   }
   .page-header {
     padding: 2rem 1rem;
+    background-color: #000001;
+    background-image: none;
+  }
+  .main-content {
+    background-color: #000001;
+    color: #FFFFFF;
   }
   a {
-    color: #1e6bb8;
+    color: #FDDC43;
     text-decoration: none;
   }
   a:hover {
     text-decoration: underline;
+    color: #FDDC43;
   }
