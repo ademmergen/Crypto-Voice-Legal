@@ -10,46 +10,41 @@ github:
   is_project_page: false
 show_downloads: false
 
-# Tema renkleri ve stili
-colors:
-  header-bg-color: "#000001"
-  header-bg-color-secondary: "#000001"
-  section-headings-color: "#FDDC43"
-  body-text-color: "#FFFFFF"
-  body-link-color: "#FDDC43"
+# Tema özelleştirmeleri
+theme: jekyll-theme-cayman
 
 # Sayfa stili
 style: |
-  body {
-    background-color: #000001;
-  }
-  .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { 
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto; 
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-    color: #FDDC43;
-  }
-  .main-content p {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #FFFFFF;
+  :root {
+    --header-bg-color: #000001;
+    --header-bg-color-secondary: #000001;
+    --section-headings-color: #FDDC43;
   }
   .page-header {
+    background-color: #000001 !important;
+    background-image: none !important;
     padding: 2rem 1rem;
-    background-color: #000001;
-    background-image: none;
+  }
+  body {
+    background-color: #000001 !important;
+    color: #FFFFFF !important;
   }
   .main-content {
-    background-color: #000001;
-    color: #FFFFFF;
+    background-color: #000001 !important;
+    color: #FFFFFF !important;
+  }
+  .main-content h1, 
+  .main-content h2, 
+  .main-content h3, 
+  .main-content h4, 
+  .main-content h5, 
+  .main-content h6 { 
+    color: #FDDC43 !important;
   }
   a {
-    color: #FDDC43;
-    text-decoration: none;
+    color: #FDDC43 !important;
   }
   a:hover {
+    color: #FDDC43 !important;
     text-decoration: underline;
-    color: #FDDC43;
   }
