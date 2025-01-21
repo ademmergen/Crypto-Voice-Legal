@@ -1,11 +1,8 @@
-# Site ayarları
 title: Crypto Voice
 description: Terms of Service & Privacy Policy
 
-# GitHub Pages ayarları
-remote_theme: pages-themes/primer@v0.2.0
-plugins:
-  - jekyll-remote-theme
+# Tema seçimi
+theme: jekyll-theme-cayman
 
 # GitHub butonlarını gizle
 github:
@@ -13,17 +10,31 @@ github:
 show_downloads: false
 
 # Özel CSS
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+
+# Sayfa stili
 style: >-
   <style>
-    body { background-color: #000001 !important; color: #FFFFFF !important; }
-    .container-lg { background-color: #000001 !important; }
-    .markdown-body { background-color: #000001 !important; color: #FFFFFF !important; }
-    .markdown-body h1, 
-    .markdown-body h2, 
-    .markdown-body h3, 
-    .markdown-body h4, 
-    .markdown-body h5, 
-    .markdown-body h6 { color: #FDDC43 !important; }
-    a { color: #FDDC43 !important; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    .page-header { 
+      background: #000001 !important; 
+      background-image: none !important;
+    }
+    .main-content { 
+      background: #000001 !important; 
+      color: #FFFFFF !important;
+    }
+    .main-content h1, 
+    .main-content h2, 
+    .main-content h3 { 
+      color: #FDDC43 !important; 
+    }
+    body { 
+      background: #000001 !important; 
+      color: #FFFFFF !important;
+    }
+    a { 
+      color: #FDDC43 !important; 
+    }
   </style>
