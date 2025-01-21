@@ -1,78 +1,29 @@
 # Site ayarları
 title: Crypto Voice
 description: Terms of Service & Privacy Policy
-show_downloads: false
-google_analytics:
-markdown: kramdown
 
-# GitHub Pages tema ayarı
-theme: jekyll-theme-cayman
+# GitHub Pages ayarları
+remote_theme: pages-themes/primer@v0.2.0
+plugins:
+  - jekyll-remote-theme
 
 # GitHub butonlarını gizle
 github:
   is_project_page: false
+show_downloads: false
 
 # Özel CSS
-layout: default
-custom_css: |
-  <style type="text/css">
-    /* Header */
-    .page-header {
-      background-color: #000001 !important;
-      background-image: none !important;
-      padding: 2rem 1rem;
-    }
-    
-    /* Body */
-    body {
-      background-color: #000001 !important;
-      color: #FFFFFF !important;
-      margin: 0;
-      padding: 0;
-    }
-    
-    /* Main Content */
-    .main-content {
-      background-color: #000001 !important;
-      color: #FFFFFF !important;
-      max-width: 64rem;
-      padding: 2rem 6rem;
-      margin: 0 auto;
-    }
-    
-    /* Headings */
-    .main-content h1,
-    .main-content h2,
-    .main-content h3,
-    .main-content h4,
-    .main-content h5,
-    .main-content h6 {
-      color: #FDDC43 !important;
-      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
-      margin-top: 2rem;
-      margin-bottom: 1rem;
-    }
-    
-    /* Links */
-    a {
-      color: #FDDC43 !important;
-      text-decoration: none;
-    }
-    
-    a:hover {
-      text-decoration: underline;
-      color: #FDDC43 !important;
-    }
-    
-    /* Lists */
-    .main-content ul,
-    .main-content ol {
-      color: #FFFFFF !important;
-    }
-    
-    /* Paragraphs */
-    .main-content p {
-      color: #FFFFFF !important;
-      margin-bottom: 1em;
-    }
+style: >-
+  <style>
+    body { background-color: #000001 !important; color: #FFFFFF !important; }
+    .container-lg { background-color: #000001 !important; }
+    .markdown-body { background-color: #000001 !important; color: #FFFFFF !important; }
+    .markdown-body h1, 
+    .markdown-body h2, 
+    .markdown-body h3, 
+    .markdown-body h4, 
+    .markdown-body h5, 
+    .markdown-body h6 { color: #FDDC43 !important; }
+    a { color: #FDDC43 !important; text-decoration: none; }
+    a:hover { text-decoration: underline; }
   </style>
