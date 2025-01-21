@@ -4,29 +4,53 @@ plugins:
 
 title: Crypto Voice
 description: Legal Documents
-show_downloads: false
 
-# Tema renkleri
-colors:
-  header: "#000000"      # Siyah header
-  gradient_top: "#000000"    
-  gradient_bottom: "#000000"
-  link: "#FDDC43"       # Sarı link rengi
-  section_title: "#FDDC43"
+# Tema özelleştirmeleri
+github:
+  is_project_page: false
+  
+# Özel CSS
+sass:
+  style: compressed
+
+# Sayfa başlığı ve içerik stilleri
+markdown: kramdown
+kramdown:
+  input: GFM
 
 # Özel CSS ekleyelim
-style: |
-  body {
-    background-color: #000000;
-    color: white;
-  }
-  .main-content h1, .main-content h2, .main-content h3 {
-    color: #FDDC43;
-  }
-  a {
-    color: #FDDC43;
-  }
-  .page-header {
+baseurl: ""
+
+# Site geneli CSS özelleştirmeleri
+theme_variables: 
+  header-heading-color: "#FFFFFF"
+  header-bg-color: "#000000"
+  header-bg-color-secondary: "#000000"
+  section-headings-color: "#FDDC43"
+  body-text-color: "#FFFFFF"
+  body-link-color: "#FDDC43"
+  border-color: "#2C2C2C"
+
+# Özel CSS dosyası
+extra_css: |
+  .page-header { 
     background-color: #000000;
     background-image: none;
+    padding: 2rem 1rem;
+  }
+  .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { 
+    color: #FDDC43; 
+  }
+  body { 
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  .main-content { 
+    background-color: #000000;
+  }
+  a { 
+    color: #FDDC43;
+  }
+  .btn { 
+    display: none;
   }
