@@ -1,3 +1,32 @@
-theme: jekyll-theme-cayman
-title: Crypto Voice Legal
-description: Terms of Service and Privacy Policy for Crypto Voice App
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+title: Crypto Voice
+description: Legal Documents
+show_downloads: false
+
+# Tema renkleri
+colors:
+  header: "#000000"      # Siyah header
+  gradient_top: "#000000"    
+  gradient_bottom: "#000000"
+  link: "#FDDC43"       # Sarı link rengi
+  section_title: "#FDDC43"
+
+# Özel CSS ekleyelim
+style: |
+  body {
+    background-color: #000000;
+    color: white;
+  }
+  .main-content h1, .main-content h2, .main-content h3 {
+    color: #FDDC43;
+  }
+  a {
+    color: #FDDC43;
+  }
+  .page-header {
+    background-color: #000000;
+    background-image: none;
+  }
