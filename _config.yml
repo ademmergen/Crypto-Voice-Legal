@@ -1,0 +1,73 @@
+# Site ayarları
+title: Crypto Voice
+description: Legal Documents
+
+# Tema ayarı
+theme: jekyll-theme-cayman
+
+# GitHub butonlarını gizle
+github:
+  is_project_page: false
+show_downloads: false
+
+# Özel CSS
+style: >-
+  <style>
+    /* Ana stil */
+    body {
+      background-color: #000001;
+      color: #FFFFFF;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    .page-header {
+      background-color: #000001;
+      background-image: none;
+      padding: 2rem 1rem;
+    }
+
+    /* İçerik */
+    .main-content {
+      background-color: #000001;
+      color: #FFFFFF;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    /* Başlıklar */
+    h1, h2, h3, h4, h5, h6,
+    .main-content h1,
+    .main-content h2,
+    .main-content h3,
+    .main-content h4,
+    .main-content h5,
+    .main-content h6 {
+      color: #FDDC43;
+      font-weight: 600;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Linkler */
+    a {
+      color: #FDDC43;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Listeler */
+    ul, ol {
+      color: #FFFFFF;
+      padding-left: 2rem;
+    }
+
+    /* Paragraflar */
+    p {
+      color: #FFFFFF;
+      margin-bottom: 1rem;
+    }
+  </style>
