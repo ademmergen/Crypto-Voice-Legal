@@ -1,33 +1,100 @@
+<head>
+  <style>
+    body {
+      background-color: #000001;
+      color: #FFFFFF;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1, h2, h3 {
+      color: #FDDC43;
+      font-weight: 600;
+    }
+    a {
+      color: #FDDC43;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    p, ul, li {
+      line-height: 1.6;
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+
+<div class="container">
+
 # Privacy Policy - Crypto Voice
 
 Last Updated: [Tarih]
 
 ## 1. Information We Collect
-We collect:
-- Voice alert preferences
+### 1.1 User Preferences
+- Voice alert settings
 - Selected cryptocurrencies
 - Alert intervals
-- Device information
+- Favorite cryptocurrency list
+
+### 1.2 Device Information
+- Device type and model
+- Operating system version
+- App version
+- Language settings
 
 ## 2. How We Use Information
 We use your information to:
 - Provide voice alerts
 - Save your preferences
 - Improve our service
+- Maintain app functionality
 
 ## 3. Data Storage
+- All preferences are stored locally on your device
 - We don't store personal financial data
-- Preferences are stored locally on your device
-- No data is shared with third parties
+- No cryptocurrency wallet information is collected
+- No trading data is stored or transmitted
 
-## 4. Your Rights
+## 4. Third-Party Services
+We use third-party services for:
+- Cryptocurrency price data
+- Market information
+- Voice synthesis
+These services may collect anonymous usage data.
+
+## 5. Data Security
+We protect your data by:
+- Storing preferences locally
+- Using secure connections
+- Not collecting sensitive financial information
+- Regular security updates
+
+## 6. User Rights
 You can:
-- Access your data
-- Delete your data
-- Opt out of features
+- Access your stored preferences
+- Delete all app data
+- Opt out of voice features
+- Control notification settings
 
-## 5. Updates to Policy
-We may update this policy. Check back for changes.
+## 7. Children's Privacy
+- The App is not intended for users under 13
+- We do not knowingly collect data from children
+- Parents should supervise children's app usage
 
-## 6. Contact
-Privacy questions? Contact us at [email]
+## 8. Changes to Policy
+- We may update this policy
+- Users will be notified of significant changes
+- Continued use implies acceptance of changes
+
+## 9. Contact Us
+Privacy questions or concerns? Contact us at:
+[E-posta]
+
+</div>
