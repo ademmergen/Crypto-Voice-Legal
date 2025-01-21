@@ -3,34 +3,62 @@
 
 @import "{{ site.theme }}";
 
-.page-header {
-  background-color: #000000;
-  background-image: none;
-  padding: 2rem 1rem;
-}
-
+// Tüm sayfa arka planı
 body {
-  background-color: #000000;
+  background: #000000;
   color: #FFFFFF;
 }
 
-.main-content {
+// Header kısmı
+#header_wrap {
+  background: #000000;
+  .inner {
+    padding: 30px 10px;
+  }
+}
+
+#project_title {
+  color: #FDDC43;
+}
+
+// İçerik kısmı
+#main_content_wrap {
+  background: #000000;
+  border: none;
+}
+
+#main_content {
   h1, h2, h3, h4, h5, h6 {
     color: #FDDC43;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    font-weight: 600;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
   }
   
-  background-color: #000000;
-  color: #FFFFFF;
+  p, li {
+    color: #FFFFFF;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+    font-size: 16px;
+    line-height: 1.5;
+  }
 }
 
+// Footer kısmı
+#footer_wrap {
+  background: #000000;
+  display: none;
+}
+
+// "Skip to content" linki
+.skip-to-content {
+  display: none;
+}
+
+// Linkler
 a {
   color: #FDDC43;
   text-decoration: none;
   
   &:hover {
-    color: lighten(#FDDC43, 10%);
     text-decoration: underline;
   }
 }
